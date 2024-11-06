@@ -1,3 +1,4 @@
+import '../index.css'
 export const Header = () => {
-  return <div>Header Section</div>;
+  return <div><h1 className="text-white">HELLo</h1></div>;
 };

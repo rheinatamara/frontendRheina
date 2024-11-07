@@ -23,6 +23,7 @@ const config: Config = {
         md: "2rem",
       },
     },
+<<<<<<< HEAD
     colors: {
       primary: "#050816",
       secondary: "#aaa6c3",
@@ -39,6 +40,15 @@ const config: Config = {
       "hero-pattern": "url('/src/assets/herobg.png')",
     },
     extend: {}, 
+=======
+    extend: {
+      fontFamily: {
+        sans: 'var(--font-sans)',
+        serif: 'var(--font-serif)'
+
+      }
+    },
+>>>>>>> experiment/new-endpoint
   },
   plugins: [],
 };

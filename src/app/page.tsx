@@ -1,6 +1,6 @@
 import { AboutSection } from "@/sections/About";
 import {Header} from "@/sections/Header"
-import {HeroSection} from "@/sections/Hero"
+import {IntroSection} from "@/sections/Intro"
 import {ProjectsSection} from "@/sections/Projects"
 import { TestimonialsSection } from "@/sections/Testimonials";
 
@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <HeroSection/>
+      <IntroSection/>
+      {/* <HeroSection/> */}
       <ProjectsSection/>
       <TestimonialsSection/>
       <AboutSection/>

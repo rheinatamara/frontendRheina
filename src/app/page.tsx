@@ -1,13 +1,14 @@
 import { AboutSection } from "@/sections/About";
-import {Header} from "@/sections/Header"
 import {IntroSection} from "@/sections/Intro"
 import {ProjectsSection} from "@/sections/Projects"
 import { TestimonialsSection } from "@/sections/Testimonials";
+import { Navbar } from "@/sections/Navbar";
 
 export default function Home() {
   return (
     <div>
-      <Header/>
+      <Navbar/>
+      {/* <Header/> */}
       <IntroSection/>
       {/* <HeroSection/> */}
       <ProjectsSection/>
